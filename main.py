@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 
-USER_PROVIDED_ATLAS_STRING = "mongodb+srv://amysantiago779:j82T8isbalI7X63g@ethical.rm9ry9j.mongodb.net/?retryWrites=true&w=majority&appName=Ethical"
+USER_PROVIDED_ATLAS_STRING = ""
 MONGO_DETAILS = os.getenv("MONGO_DETAILS")
 if MONGO_DETAILS:
     print("Loaded MONGO_DETAILS from environment.")
